@@ -1,0 +1,64 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* Reset */
+
+/* Regole Container */
+body {
+  background: white;
+}
+
+.container {
+  width: 1800px;
+  height: 820px;
+  margin: 0 60px;
+}
+
+.upper {
+  margin-bottom: 20px;
+}
+
+.poster {
+  display: inline-block;
+  position: relative;
+}
+
+ .upper,.downer {
+  text-align: center;
+}
+
+/* Fine Regole Container */
+
+/*  Regole hover */
+ p {
+   position: absolute;
+   top: 0;
+   right: 0;
+   background: green;
+
+ }
+
+.two p{
+  background-color: red;
+}
+
+.heart {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  color: red;
+  display: none;
+  font-size: 20px;
+}
+
+.poster:hover .heart {
+  display: block;
+}
+
+/*  Fine Regole hover */
